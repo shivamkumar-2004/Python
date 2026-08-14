@@ -1,0 +1,4 @@
+print("Hello, World!", end=" ")
+print("Have a good day.", end=" ")
+print("Learning Python is fun!", end=" ")
+print(" I will print this on the same line .")
