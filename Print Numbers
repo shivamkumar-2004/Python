@@ -1,0 +1,16 @@
+print (3)
+print (359)
+print (3.14)
+
+# Maths inside Print() function
+print (3+5)
+print (3*5)
+print (3/5)
+print (3-5)
+print (3**5)
+
+# Mix Text and Numbers
+print ("The value of 3+5 is", 3+5)
+print ("The value of 3*5 is", 3*5)
+print ("The value of 3/5 is", 3/5)
+print ("The value of 3-5 is", 3-5)
