@@ -1,0 +1,11 @@
+# This is a comment
+print("Hello, World!")
+
+print("Have a good day.") # This is a comment
+
+# Multiline comments can be created using triple quotes
+""" This is a multiline comment
+   It can span multiple lines   
+    and is often used for documentation purposes. """
+
+print("Learning Python is fun!")
