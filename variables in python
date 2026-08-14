@@ -1,0 +1,81 @@
+x = 5
+y = "John"
+print(x)
+print(y)
+
+# Another
+x = 5
+x = "John"
+print(x)
+
+# Get the type of a variable
+print(type(x))
+print(type(y))
+
+# case sensitive
+# This will create two different variables
+a = 4
+A = "John"
+
+#Variable names 
+#Rules for Python variables:
+
+'''A variable name must start with a letter or the underscore character
+A variable name cannot start with a number
+A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+Variable names are case-sensitive (age, Age and AGE are three different variables)
+A variable name cannot be any of the Python keywords.'''
+
+# Legal variable name
+myvar = "John"
+my_var = "John"
+_my_var = "John"
+myVar = "John"
+MYVAR = "John"
+myvar2 = "John"
+
+#Illegal variable names
+'''2myvar = "John"
+my-var = "John"
+my var = "John"'''
+
+#Multi words variable names 
+# Camel case
+ #Each word, except the first, starts with a capital letter:
+myVariableName = "John"
+
+#Pascal case 
+ #Each word starts with a capital letter:
+MyVariableName = "John"
+
+#Snake case
+ #Each word is separated by an underscore character:
+my_variable_name = "John"
+
+#Assignment of multiple values to multiple variables
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+
+#Assign the same value to multiple variables in one line
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+
+#Unpack a collection
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+
+#Output variables
+x = "Python is awesome"
+print(x)
+
+#Using the + operator to output multiple variables
+x = "Python is "
+y = "awesome"
+print(x + y)
