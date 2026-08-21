@@ -1,4 +1,5 @@
 # This is a sample code to demonstrate the use of data types in Python.
+
 # int type
 x=5
 print(type(x))
@@ -50,5 +51,3 @@ print(type(i))
 # None type
 j=None
 print(type(j))
-
-
