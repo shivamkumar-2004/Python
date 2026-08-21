@@ -1,0 +1,54 @@
+# This is a sample code to demonstrate the use of data types in Python.
+# int type
+x=5
+print(type(x))
+
+# float type
+y=5.5
+print(type(y))
+
+# str type
+z="Hello"
+print(type(z))
+
+# bool type
+a=True
+print(type(a))
+
+# list type
+b=[1,2,3]
+print(type(b))
+
+# tuple type
+c=(1,2,3)
+print(type(c))
+
+# dict type
+d={"name":"John", "age":30} 
+print(type(d))
+
+# set type
+e={1,2,3}
+print(type(e))
+
+# complex type
+f=1+2j
+print(type(f))
+
+# bytes type
+g=b"Hello"
+print(type(g))
+
+# bytearray type
+h=bytearray(5)
+print(type(h))
+
+# frozenset type
+i=frozenset([1,2,3])
+print(type(i))
+
+# None type
+j=None
+print(type(j))
+
+
