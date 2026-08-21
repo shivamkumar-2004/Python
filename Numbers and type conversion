@@ -1,0 +1,35 @@
+x = 2
+y = 2.8
+z = 1j
+print(type(x))
+print(type(y))
+print(type(z))
+
+#int to float
+a = float(x)
+print(type(a))
+
+#float to int
+b = int(y)
+print(type(b))
+
+#int to complex
+c = complex(x)
+print(type(c))
+
+# float to complex
+d = complex(y)
+print(type(d))
+
+# complex to float
+e = float(z.real)
+print(type(e))
+
+# complex to int
+f = int(z.real)
+print(type(f))
+
+# Random  number
+import random
+print(random.randint(1, 10))  # Random integer between 1 and 10
+
