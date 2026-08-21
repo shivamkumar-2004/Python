@@ -1,0 +1,19 @@
+x = 10
+
+def change():
+    x = 20  # Local variable
+    print("Inside function:", x)
+
+change()
+print("Outside function:", x)
+
+# Using Global Keyword
+x = "awesome"
+
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
